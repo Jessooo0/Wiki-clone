@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipedia</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.cdnfonts.com/css/gg-sans-2" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+    <div class="container">    
+      <div class="row">
+        <nav class="navbar bg-body-tertiary">
+  <div class="container-fluid d-flex align-items-center justify-content-between">
+    <div class="d-flex align-items-center">
+      <a class="navbar-brand me-3" href="#">
+        <img src="images/Cib-wikipedia_(CoreUI_Icons_v1.0.0).png" alt="Wikipedia" width="32" height="32">
+      </a>
+
+      <div class="dropdown avatar">
+        <a class="nav-link dropdown-toggle p-0" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <img src="images/Generic avatar.png" alt="Avatar" width="32" height="32" style="border-radius: 50%;">
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Account</a></li>
+          <li><a class="dropdown-item" href="#">Contact us</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#">Contribute</a></li>
+          <li><a class="dropdown-item" href="#">Help</a></li>
+          <li><a class="dropdown-item" href="#">Learn to edit</a></li>
+          <li><a class="dropdown-item" href="#">Recent changes</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <form class="d-flex mx-auto w-50 p-3" role="search">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+      <button class="btn btn-outline-light submit" type="submit"><img src="images/Search.png" alt=""></button>
+    </form>
+    <div class="dropdown">
+        <a class="nav-link acc" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+  <img src="images/accessibility.png" alt="Guy" width="32" height="32" style="border-radius: 50%;">
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#"><img src="images/eye-43.png" width="32" height="32" alt=""></a></li>
+          <li><a class="dropdown-item" href="#"><img src="images/2964025.png" width="32" height="32" alt=""></a></li>
+        </ul>
+      </div>
+    <div class="dropdown acb">
+  <a class="nav-link d-flex align-items-center gap-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <img src="images/language.svg" alt="Tongue" width="32" height="32" style="border-radius: 50%;">
+    <p class="tounge mb-0">English</p>
+  </a>
+      </div>
+    </div>
+  </div>
+</nav>
+<hr style="height: 5px;px;border-width:0;color:gray;background-color:gray">
+      </div> 
+   </div>
+</header>
+
+
+ <div class="hero">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 hero_background">
+        <div class="overlay-box p-4 text-center">
+          <h2>Welcome to Wikipedia</h2>
+          <p class="hero_text">
+            the free knowledge base with 117,475,499 data items that anyone can edit.
+
+Introduction • <a href="" class="Chat">Project Chat</a>• <a href="" class="Portal">Community Portal </a>• Help
+
+Want to help translate? Translate the missing messages.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+
+ <div class="news_section">
+  <div class="container">
+    <div class="row">
+      <div class="card-wrapper text-start my-4">
+        <div class="card-title-box">
+  <div class="card-title m-0">In the news</div>
+        </div>
+ <hr class="card_underline">
+  <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <div class="card custom-card mx-auto">
+          <div class="card-body">
+            <p class="card-text">The Socialist Party led by current prime minister Edi Rama wins an outright majority in the Albanian parliamentary election.</p>
+            <a href="#" class="card-link">Learn more</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="card custom-card mx-auto">
+          <div class="card-body">
+            <p class="card-text">In the Portuguese legislative election, the Democratic Alliance (leader Luís Montenegro pictured) wins the most seats in parliament.</p>
+            <a href="#" class="card-link">Learn more</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="card custom-card mx-auto">
+          <div class="card-body">
+            <p class="card-text">Austria, represented by JJ with the song "Wasted Love", wins the Eurovision Song Contest.</p>
+            <a href="#" class="card-link">Learn more</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <button class="carousel-control-prev d-none" type="button" data-bs-target="#cardCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next d-none" type="button" data-bs-target="#cardCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+    </div>
+  </div>
+ </div>
+
+<div class="facts">
+<div class="container">
+    <div class="row">
+      <div class="card-wrapper_1 col-lg-6 col-sm-12 text-start my-4">
+        <div class="card-title-box-0">
+          <div class="card-title m-0">Continuous fundraising</div>
+        </div>
+        <hr class="card_underline">
+
+        <div class="card custom-card_0 mx-auto">
+          <div class="card-body">
+            <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar text-bg-info" style="width: 50%">50%</div>
+</div>
+            <br><b><p class="card-text">Support of the site activity</p></b>
+                <br><span>150 $ / 300 $</span>
+            <a href="#" class="card-link">Learn more</a>
+          </div>
+        </div>
+
+      </div>
+      <div class="card-wrapper_2 col-lg-6 col-sm-12 text-start my-4">
+        <div class="card-title-box-0">
+          <div class="card-title m-0">Temporary fundraising</div>
+        </div>
+        <hr class="card_underline">
+
+        <div class="card custom-card_0 mx-auto">
+          <div class="card-body">
+            <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar text-bg-success" style="width: 25%">25%</div>
+</div>
+            <br><b><p class="card-text">Help Philip and Simon get a med-evac vehicle to Ukraine</p></b>
+              <br><span>2000 £ / 8000 £</span>
+            <a href="#" class="card-link">Learn more</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="topics">
+  <div class="container">
+      <div class="list-group">
+         <li class="list-group-item list-group-item-info">Category</li>
+         <a href="#" class="list-group-item list-group-item-action">Main Page</a>
+         <a href="#" class="list-group-item list-group-item-action">History</a>
+         <a href="#" class="list-group-item list-group-item-action">Science</a>
+         <a href="#" class="list-group-item list-group-item-action">Technology</a>
+         <a href="#" class="list-group-item list-group-item-action">Random Article</a>
+      </div>
+  </div>
+</div>
+
+ <div class="Communities">
+  <div class="container">
+    <div class="row">
+      <div class="card col-12 text-center">
+  <div class="card-header topcard">
+    Popular Communities
+  </div>
+  <div class="row mt-3">
+  <div class="col-md-3">
+  <div class="card-body">
+    <a href="#"><img src="images/communityIcon_hta7b955wb611.webp" alt=""></a>
+    <p class="card-text com">W/hair</p>
+  </div>
+  </div>
+  <div class="col-md-3">
+  <div class="card-body">
+    <a href="#"><img src="images/communityIcon_18jg89hnk9ae1.webp" alt=""></a>
+    <p class="card-text com">W/Anime</p>
+  </div>
+  </div>
+  <div class="col-md-3">
+  <div class="card-body">
+    <a href="#"><img src="images/communityIcon_3xhx24g2vh831.webp" alt=""></a>
+    <p class="card-text com">W/15MinuteFood</p>
+  </div>
+</div>
+<div class="col-md-3">
+  <div class="card-body">
+    <a href="#"><img src="images/communityIcon_cuqo4ipiolr31.webp" alt=""></a>
+    <p class="card-text com">W/3Dmodeling</p>
+  </div>
+    </div>
+  </div>
+ </div>
+
+<div class="divider">
+  <hr class="footerline col-lg-6">
+  <img src="images/Cib-wikipedia_(CoreUI_Icons_v1.0.0).png" alt="Icon" class="icon">
+  <hr class="footerline col-lg-6">
+</div>
+
+
+<footer>
+  <p class="footer-text">Text is available under the <a href="#">Creative Commons Attribution-ShareAlike 4.0 License;</a> additional terms may apply. By using this site, you agree to the <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a> Wikipedia® is a registered trademark of the <a href="#">Wikimedia Foundation, Inc.</a>, a non-profit organization.</p>
+  <div class="footlinks">
+   <a href="#">Privacy Policy</a>
+   <a href="#">About Wikipedia</a>
+   <a href="#">Disclamers</a>
+   <a href="#">Contact Wikipedia</a>
+   <a href="#">Code of Conduct</a>
+   <a href="#">Developers</a>
+   <a href="#">Statistics</a>
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gg sans', sans-serif;
+}
+
+body {
+
+}
+
+.dropdown-toggle img {
+ max-width: 30px;
+ max-height: 30px;
+ margin-left: 30px;
+}
+
+
+.acc,.acb img {
+ margin-left: 30px;
+}
+
+.tounge {
+   font-family: 'gg sans', sans-serif;
+}
+.acc img:hover {
+ filter: brightness(0) saturate(100%) invert(15%) sepia(100%) saturate(8000%) hue-rotate(0deg);
+}
+
+.form-control {
+    border-radius: 50%;
+}
+
+.btn-outline-light:hover {
+  border-color: violet !important;
+  background-color: transparent;
+}
+.form-control:focus {
+ box-shadow: 0 0 0 0.25rem #892be23a !important;
+ border-color: violet !important;
+}
+.btn-outline-light img {
+    width: 100%;
+    height: auto;
+}
+
+.hero_background {
+  background-image: url('/Хохлов_Project/images/R_Doradus_starmap.svg');
+  height: 340px;
+  width: 1032px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay-box {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  max-width: 80%;
+}
+
+.hero_text {
+    max-width: 594px;
+    font-family: 'gg sans', sans-serif;
+}
+
+.Chat, .Portal {
+    color: violet;
+}
+
+.card-title {
+    font-size: 40px;
+    font-family: 'gg sans Normal', sans-serif
+}
+
+.card-wrapper {
+    background-color: #cedff2;
+    border: #a3b0bf solid 5px;
+    font-family: 'gg sans SemiBold', sans-serif;
+    box-shadow: -3px 2px 3px 5px rgba(238, 130, 238, 0.329);
+}
+
+.card-wrapper_1 {
+    box-shadow: -4px 0 3px -2px rgba(184, 130, 238, 0.493);
+}
+.card-wrapper_2 {
+    box-shadow: 4px 0 3px -2px rgba(184, 130, 238, 0.757);
+
+}
+.custom-card {
+  background-color: #cedff2 !important;
+  border-color: #cedff2 !important;
+}
+
+.custom-card_0 {
+  background-color: #F5FFFA !important;
+}
+
+.card-subtitle {
+    font-size: 24px;
+    font-family: 'gg sans Medium', sans-serif;
+    padding: auto;
+}
+
+.card-text {
+    font-family: 'gg sans Normal', sans-serif;
+    font-size: 20px;
+}
+
+.card_underline {
+    height:2px;
+    border-width:5px;
+}
+
+.card-title-box {
+  background-color: #dbe8f7;
+  border: 2px solid #a3b0bf;
+  padding: 12px 20px;
+  margin-top: 20px;
+  font-family: 'gg sans Normal', sans-serif;
+}
+
+
+.card-title-box-0 {
+  background-color: #CEF2E0;
+  border: 2px solid #A2BFB1;
+  padding: 12px 20px;
+  margin-top: 20px;
+  font-family: 'gg sans Normal', sans-serif;
+}
+
+.card-link {
+    color: black;
+}
+
+.topcard{
+  background-color: #dbe8f7;
+  border: 2px solid #a3b0bf;
+  padding: 12px 20px;
+  font-family: 'gg sans Medium', sans-serif;
+}
+
+.com {
+ font-family: 'gg sans Normal bold', sans-serif;
+}
+
+.topics {
+    padding: 20px 0 30px 0;
+}
+
+.footerline {
+ margin-top: 50px;
+ height:2px;
+ border-width:2px;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  margin: 0 15px;
+}
+
+.footer-text {
+  font-family: 'gg sans normal', sans-serif;
+}
+
+.footlinks a {
+  color: #000; 
+  padding: 5px 10px;
+}
+
+@media (max-width: 786px) {
+  .navbar-brand {
+    display: none;
+  }
+
+  .form-control {
+
+  }
+  .acb {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+   .divider {
+    justify-content: center;
+  }
+}
